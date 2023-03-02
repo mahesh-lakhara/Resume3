@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity4">
+
 
     <TextView
         android:layout_width="match_parent"
@@ -28,19 +29,19 @@
         android:layout_margin="10dp">
 
 
-    <EditText
-        android:id="@+id/edtName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Name :"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:layout_margin="10dp"
-        android:background="@null"/>
+        <EditText
+            android:id="@+id/edtsch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" School/University :"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@null"/>
 
     </LinearLayout>
 
-  <LinearLayout
+    <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,19 +49,19 @@
         android:layout_margin="10dp">
 
 
-    <EditText
-        android:id="@+id/edtAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Address :"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:layout_margin="10dp"
-        android:background="@null"/>
+        <EditText
+            android:id="@+id/edtgrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="10th/12th Grade :"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@null"/>
 
     </LinearLayout>
 
-  <LinearLayout
+    <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -68,36 +69,36 @@
         android:layout_margin="10dp">
 
 
-    <EditText
-        android:id="@+id/edtEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="E-mail :"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:layout_margin="10dp"
-        android:background="@null"/>
+        <EditText
+            android:id="@+id/edtcourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course/Degree :"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@null"/>
 
     </LinearLayout>
 
-  <LinearLayout
+    <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/edtnext"
-      android:layout_marginTop="10dp"
+        android:layout_marginTop="10dp"
         android:layout_margin="10dp">
 
 
-    <EditText
-        android:id="@+id/edtmoblie"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Mobile No :"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:layout_margin="10dp"
-        android:background="@null"/>
+        <EditText
+            android:id="@+id/edtbord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Board Year :"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@null"/>
 
     </LinearLayout>
 
@@ -108,7 +109,7 @@
         android:gravity="center">
 
         <TextView
-            android:id="@+id/txtStart2"
+            android:id="@+id/txtStart4"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Next"
@@ -122,6 +123,7 @@
 
 
     </LinearLayout>
+
 
 
 

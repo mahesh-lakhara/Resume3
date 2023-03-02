@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity3">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="10dp"
-        android:text="Education Detail"
+        android:text="Work History"
         android:textAllCaps="false"
         android:textSize="22dp"
         android:textStyle="bold"
@@ -28,19 +28,19 @@
         android:layout_margin="10dp">
 
 
-    <EditText
-        android:id="@+id/edtName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Name :"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:layout_margin="10dp"
-        android:background="@null"/>
+        <EditText
+            android:id="@+id/edtcompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Company Name :"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@null"/>
 
     </LinearLayout>
 
-  <LinearLayout
+    <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,19 +48,19 @@
         android:layout_margin="10dp">
 
 
-    <EditText
-        android:id="@+id/edtAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Address :"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:layout_margin="10dp"
-        android:background="@null"/>
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address :"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@null"/>
 
     </LinearLayout>
 
-  <LinearLayout
+    <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -68,36 +68,36 @@
         android:layout_margin="10dp">
 
 
-    <EditText
-        android:id="@+id/edtEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="E-mail :"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:layout_margin="10dp"
-        android:background="@null"/>
+        <EditText
+            android:id="@+id/edtExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Experience :"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@null"/>
 
     </LinearLayout>
 
-  <LinearLayout
+    <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/edtnext"
-      android:layout_marginTop="10dp"
+        android:layout_marginTop="10dp"
         android:layout_margin="10dp">
 
 
-    <EditText
-        android:id="@+id/edtmoblie"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Mobile No :"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:layout_margin="10dp"
-        android:background="@null"/>
+        <EditText
+            android:id="@+id/edtpos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Position :"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@null"/>
 
     </LinearLayout>
 
@@ -108,7 +108,7 @@
         android:gravity="center">
 
         <TextView
-            android:id="@+id/txtStart2"
+            android:id="@+id/txtStart3"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Next"
