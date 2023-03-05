@@ -1,9 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity5">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Hobby"
+        android:textAllCaps="false"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@drawable/start"
+        android:padding="10dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+        <CheckBox
+            android:id="@+id/movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="movie" />
+
+        <CheckBox
+            android:id="@+id/music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="music" />
+
+        <CheckBox
+            android:id="@+id/game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="game" />
+
+        <CheckBox
+            android:id="@+id/dance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dance" />
+
+        <CheckBox
+            android:id="@+id/jou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="journey" />
+
+        <CheckBox
+            android:id="@+id/act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acting" />
+
+        <CheckBox
+            android:id="@+id/cook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cooking" />
+
+        <CheckBox
+            android:id="@+id/spo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sports" />
+        <TextView
+            android:id="@+id/txthobby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobby:"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtStart5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/start"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
