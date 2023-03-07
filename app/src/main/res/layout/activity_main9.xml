@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="choose your type"
+        android:textAllCaps="false"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@drawable/start"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="250dp"
+         android:layout_weight="1"
+         android:layout_margin="10dp">
+
+         <ImageView
+             android:id="@+id/tem1"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:src="@drawable/tem1"
+             android:scaleType="fitXY"/>
+
+
+
+
+     </LinearLayout>
+
+       <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="250dp"
+         android:layout_weight="1"
+         android:padding="10dp"
+         android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/tem2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/tem2"
+            android:scaleType="fitXY"/>
+
+
+
+     </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

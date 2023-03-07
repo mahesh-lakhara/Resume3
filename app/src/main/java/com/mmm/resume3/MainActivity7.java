@@ -27,12 +27,13 @@ public class MainActivity7 extends AppCompatActivity {
         txtstart7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String skill = edtproject.getText().toString();
-                if (skill.isEmpty()) {
-                    edtproject.setError("Enter your skill !");
+                String poject = edtproject.getText().toString();
+                if (poject.isEmpty()) {
+                    edtproject.setError("Enter your project !");
 
                 }else {
-                    Toast.makeText(MainActivity7.this, "Submit", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity7.this,MainActivity9.class);
+                    startActivity(intent);
                 }
 
             }
