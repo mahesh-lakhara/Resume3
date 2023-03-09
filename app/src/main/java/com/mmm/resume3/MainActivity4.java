@@ -3,6 +3,7 @@ package com.mmm.resume3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -13,10 +14,19 @@ public class MainActivity4 extends AppCompatActivity {
 
     EditText edtsch,edtgrade,edtcourse,edtbord;
 
+    SharedPreferences preferences;
+
+    SharedPreferences.Editor editor;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
+
+        preferences = getSharedPreferences("Mdata",0);
+        editor = preferences.edit();
+
         txtStart4 = findViewById(R.id.txtStart4);
         edtsch = findViewById(R.id.edtsch);
         edtgrade = findViewById(R.id.edtgrade);
@@ -30,6 +40,13 @@ public class MainActivity4 extends AppCompatActivity {
                 String gr = edtgrade.getText().toString();
                 String cou = edtcourse.getText().toString();
                 String bd = edtbord.getText().toString();
+
+                editor.putString("school",school);
+                editor.putString("gr",gr);
+                editor.putString("cou",cou);
+                editor.putString("bd",bd);
+                editor.commit();
+
 
                 if (school.isEmpty()) {
                     edtsch.setError("enter Name !");

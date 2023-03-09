@@ -3,6 +3,7 @@ package com.mmm.resume3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -13,10 +14,19 @@ public class MainActivity3 extends AppCompatActivity {
 
     EditText edtcompany,edtAddress,edtExp,edtpos;
 
+    SharedPreferences preferences;
+
+    SharedPreferences.Editor editor;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+
+        preferences = getSharedPreferences("Mdata",0);
+        editor = preferences.edit();
+
 
         txtStart3 = findViewById(R.id.txtStart3);
         edtcompany = findViewById(R.id.edtcompany);
@@ -28,13 +38,20 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String company = edtcompany.getText().toString();
-                String address = edtAddress.getText().toString();
+                String add = edtAddress.getText().toString();
                 String exp = edtExp.getText().toString();
                 String poss = edtpos.getText().toString();
 
+                editor.putString("company",company);
+                editor.putString("add",add);
+                editor.putString("exp",exp);
+                editor.putString("poss",poss);
+                editor.commit();
+
+
                 if (company.isEmpty()) {
                     edtcompany.setError("enter Name !");
-                }else if (address.isEmpty()){
+                }else if (add.isEmpty()){
                     edtAddress.setError("enter address !");
                 }else if (exp.isEmpty()){
                     edtExp.setError("enter Experience !");

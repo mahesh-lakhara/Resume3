@@ -15,11 +15,18 @@ public class MainActivity2 extends AppCompatActivity {
 
     EditText edtName, edtAddress, edtEmail, edtmoblie;
 
+    SharedPreferences preferences;
+
+    SharedPreferences.Editor editor;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
+        preferences = getSharedPreferences("Mdata",0);
+        editor = preferences.edit();
 
 
         txtStart2 = findViewById(R.id.txtStart2);
@@ -35,6 +42,12 @@ public class MainActivity2 extends AppCompatActivity {
                 String address = edtAddress.getText().toString();
                 String emai = edtEmail.getText().toString();
                 String mobli = edtmoblie.getText().toString();
+
+                editor.putString("name",name);
+                editor.putString("address",address);
+                editor.putString("emai",emai);
+                editor.putString("mobli",mobli);
+                editor.commit();
 
 
                 if (name.isEmpty()) {
