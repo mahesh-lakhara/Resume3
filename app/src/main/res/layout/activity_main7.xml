@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     android:orientation="vertical"
     tools:context=".MainActivity7">
     <TextView
@@ -22,7 +23,7 @@
     <LinearLayout
 
         android:layout_width="380dp"
-        android:layout_height="101dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="90dp"
         android:background="@drawable/edtnext">
@@ -31,7 +32,7 @@
         <EditText
             android:id="@+id/edtproject"
             android:layout_width="match_parent"
-            android:layout_height="58dp"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@null"
             android:gravity="center"
@@ -42,9 +43,10 @@
     </LinearLayout>
     <LinearLayout
 
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
 
         <TextView
             android:id="@+id/txtStart7"
