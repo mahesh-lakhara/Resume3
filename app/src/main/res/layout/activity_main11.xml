@@ -10,361 +10,365 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_weight="1.4"
-        android:background="@color/black">
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_marginTop="10dp"/>
-
-        </LinearLayout>
-
-<View
-    android:layout_width="match_parent"
-    android:layout_height="2dp"
-    android:background="@color/white"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="285dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:padding="10dp"
-                android:text="Personal Detail"
-                android:background="@drawable/edtnext"
-                android:textColor="#00BCD4"
-                android:textSize="20dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/txtName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Name"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="17dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"/>
-
-
-            <TextView
-                android:id="@+id/txtAddress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Address"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="17dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:id="@+id/txtEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="E-mail"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="17dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:id="@+id/txtMoblie"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Mobile no"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="17dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"/>
-
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="@color/white"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="285dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Education Detail"
-                android:textColor="#00BCD4"
-                android:background="@drawable/edtnext"
-                android:layout_marginTop="5dp"
-                android:textSize="20dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/txtsch"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="school/University"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="17dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"/>
-
-
-            <TextView
-                android:id="@+id/txtgrade"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="10th/12th"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="17dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:id="@+id/txtCource"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Cource/degree"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="17dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:id="@+id/txtBoard"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Board year "
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="17dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"/>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-        <View
-            android:layout_width="2dp"
             android:layout_height="match_parent"
-            android:background="@color/black"/>
+            android:orientation="vertical"
+            android:layout_weight="1.2"
+            android:background="#000000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/white"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="285dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtnext"
+                    android:padding="10dp"
+                    android:text="Personal Detail"
+                    android:layout_margin="5dp"
+                    android:textColor="#00BCD4"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Name"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
 
 
-     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_weight="1">
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Address"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
 
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="250dp"
-             android:orientation="vertical"
-             android:padding="10dp">
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="E-mail"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
 
-             <TextView
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:gravity="center"
-                 android:padding="10dp"
-                 android:text="Work History"
-                 android:background="@drawable/edtnext"
-                 android:textColor="#00BCD4"
-                 android:textSize="19dp"
-                 android:textStyle="bold" />
-
-             <TextView
-                 android:id="@+id/txtCompany"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:text="Company Name"
-                 android:textAllCaps="false"
-                 android:textColor="@color/black"
-                 android:textSize="17dp"
-                 android:textStyle="bold" />
-
-
-             <TextView
-                 android:id="@+id/txtAdd"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:text="Address"
-                 android:textAllCaps="false"
-                 android:textColor="@color/black"
-                 android:textSize="17dp"
-                 android:textStyle="bold" />
-
-             <TextView
-                 android:id="@+id/txtExp"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:text="Experience"
-                 android:textAllCaps="false"
-                 android:textColor="@color/black"
-                 android:textSize="17dp"
-                 android:textStyle="bold" />
-
-             <TextView
-                 android:id="@+id/txtpos"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:text="Position"
-                 android:textAllCaps="false"
-                 android:textColor="@color/black"
-                 android:textSize="17dp"
-                 android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtMoblie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Mobile no"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
 
 
-         </LinearLayout>
+            </LinearLayout>
 
-         <View
-             android:layout_width="match_parent"
-             android:layout_height="2dp"
-             android:background="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/white"/>
 
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="150dp"
-             android:orientation="vertical"
-             android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="285dp"
+                android:orientation="vertical">
 
-             <TextView
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:gravity="center"
-                 android:padding="10dp"
-                 android:text="Project"
-                 android:textColor="#00BCD4"
-                 android:background="@drawable/edtnext"
-                 android:textSize="19dp"
-                 android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Education Detail"
+                    android:layout_margin="5dp"
+                    android:textColor="#00BCD4"
+                    android:background="@drawable/edtnext"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
-             <TextView
-                 android:id="@+id/txtpro"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:text="Project"
-                 android:textAllCaps="false"
-                 android:textColor="@color/black"
-                 android:textSize="17dp"
-                 android:textStyle="bold" />
-
-
-
-         </LinearLayout>
-
-         <View
-             android:layout_width="match_parent"
-             android:layout_height="2dp"
-             android:background="@color/black"/>
+                <TextView
+                    android:id="@+id/txtsch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="school/University"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
 
 
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="150dp"
-             android:orientation="vertical"
-             android:padding="10dp">
+                <TextView
+                    android:id="@+id/txtgrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="10th/12th"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
 
-             <TextView
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:gravity="center"
-                 android:text="Skill"
-                 android:textColor="#00BCD4"
-                 android:background="@drawable/edtnext"
-                 android:textSize="20dp"
-                 android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtCource"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Cource/degree"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
 
-             <TextView
-                 android:id="@+id/txtskill"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:text="Skill"
-                 android:textAllCaps="false"
-                 android:textColor="@color/black"
-                 android:textSize="17dp"
-                 android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Board year "
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
 
-         </LinearLayout>
+            </LinearLayout>
 
-         <View
-             android:layout_width="match_parent"
-             android:layout_height="2dp"
-             android:background="@color/black"/>
+        </LinearLayout>
 
-
-<LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="150dp"
-             android:orientation="vertical"
-             android:padding="10dp">
-
-             <TextView
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:gravity="center"
-                 android:text="Hobby"
-                 android:background="@drawable/edtnext"
-                 android:textColor="#00BCD4"
-                 android:textSize="20dp"
-                 android:textStyle="bold" />
-
-             <TextView
-                 android:id="@+id/txthobby"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:text="Hobby"
-                 android:textAllCaps="false"
-                 android:textColor="@color/black"
-                 android:textSize="17dp"
-                 android:textStyle="bold" />
-
-         </LinearLayout>
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#00E2FF"/>
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Work History"
+                    android:background="@drawable/edtnext"
+                    android:textColor="#00BCD4"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Company Name"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
 
 
-     </LinearLayout>
+                <TextView
+                    android:id="@+id/txtAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Address"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtExp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Experience"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtpos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Position"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Project"
+                    android:textColor="#00BCD4"
+                    android:background="@drawable/edtnext"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtpro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Project"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Skill"
+                    android:padding="10dp"
+                    android:textColor="#00BCD4"
+                    android:background="@drawable/edtnext"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtskill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Skill"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Hobby"
+                    android:padding="10dp"
+                    android:background="@drawable/edtnext"
+                    android:textColor="#00BCD4"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txthobby"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Hobby"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
 
     </LinearLayout>
 
