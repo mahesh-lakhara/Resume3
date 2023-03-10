@@ -36,7 +36,7 @@
              android:id="@+id/tem1"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             android:src="@drawable/tem1"
+             android:src="@drawable/th"
              android:scaleType="fitXY"/>
 
 

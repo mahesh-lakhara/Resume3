@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity10">
+    tools:context=".MainActivity12">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,6 +27,7 @@
                     android:layout_height="100dp"
                     android:layout_gravity="center"
                     android:background="@color/white"
+                    android:src="@drawable/and"
                     android:layout_marginTop="10dp"/>
 
             </LinearLayout>
@@ -372,5 +373,6 @@
         </LinearLayout>
 
     </LinearLayout>
+
 
 </LinearLayout>

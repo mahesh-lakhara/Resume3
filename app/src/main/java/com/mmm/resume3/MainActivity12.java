@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class MainActivity10 extends AppCompatActivity {
+public class MainActivity12 extends AppCompatActivity {
 
     TextView txtName,txtAddress,txtEmail,txtMoblie;
 
@@ -23,8 +23,7 @@ public class MainActivity10 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main10);
-
+        setContentView(R.layout.activity_main12);
         preferences = getSharedPreferences("Mdata",0);
 
         txtName = findViewById(R.id.txtName);
@@ -84,6 +83,7 @@ public class MainActivity10 extends AppCompatActivity {
         txtpro.setText(poject);
 
         txtskill.setText(skill);
+
 
     }
 }
