@@ -21,64 +21,89 @@
         android:padding="10dp"/>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
         android:orientation="vertical">
 
 
         <CheckBox
             android:id="@+id/movie"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="movie" />
+            android:gravity="center"
+            android:text="movie"
+            android:layout_margin="5dp"
+            android:background="@drawable/edtnext"/>
 
         <CheckBox
             android:id="@+id/music"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="music" />
+            android:text="music"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@drawable/edtnext"/>
 
         <CheckBox
             android:id="@+id/game"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="game" />
+            android:text="game"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@drawable/edtnext"/>
 
         <CheckBox
             android:id="@+id/dance"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="dance" />
+            android:text="dance"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@drawable/edtnext"/>
 
         <CheckBox
             android:id="@+id/jou"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="journey" />
+            android:text="journey"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@drawable/edtnext"/>
 
         <CheckBox
             android:id="@+id/act"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="acting" />
+            android:text="acting"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@drawable/edtnext"/>
 
         <CheckBox
             android:id="@+id/cook"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="cooking" />
+            android:text="cooking"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@drawable/edtnext"/>
 
         <CheckBox
             android:id="@+id/spo"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="sports" />
+            android:text="sports"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@drawable/edtnext"/>
         <TextView
             android:id="@+id/txthobby"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="Hobby:"/>
 
 

@@ -58,6 +58,12 @@ public class MainActivity2 extends AppCompatActivity {
                     edtEmail.setError("enter Experience !");
                 } else if (mobli.isEmpty()) {
                     edtmoblie.setError("enter position ! ");
+
+                } else if (emai.contains("@gmail,com")) {
+                    edtEmail.setError("Enter valid Gmail Id!");
+
+                } else if (mobli.length()!=10) {
+                    edtmoblie.setError("Enter valid Contant!");
                 } else {
                     Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
                     startActivity(intent);
